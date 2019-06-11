@@ -205,7 +205,7 @@ Regardless if you followed the manual, stack or CLI procedure, you might want to
 
 1. Select `Swarm` and select `Service`. 
 
-2. Select the WORDPRESS Service you deployed and select the cock wheel in the upper right corner.
+2. Select the WORDPRESS Service you deployed and select the cog wheel in the upper right corner.
 
 ![swarm-service06](../images/swarm-service06.png)/
 
