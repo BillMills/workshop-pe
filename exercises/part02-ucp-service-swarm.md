@@ -134,8 +134,8 @@ With the services MYSQL01 and WORDPRESS01 you should be either able to access yo
 2. Run the following `docker service create commands`:
 
 ```
-docker network create backend
-docker network create frontend
+docker network create -d overlay backend
+docker network create -d overlay frontend
 
 docker service create --name mysql01 --network backend -e MYSQL_ROOT_PASSWORD=ThisIsSecret -e MYSQL_DATABASE=wordpress -e MYSQL_USER=wordpress -e MYSQL_PASSWORD=ThisIsAlsoSecret --mount type=volume,source=db_data,destination=/var/lib/mysql mysql:5.7
 
