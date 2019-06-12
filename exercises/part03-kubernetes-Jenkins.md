@@ -209,7 +209,7 @@ You should be able to connect to you Cluster by pressing `Test Connection`
 Click `Add Container` and provide the following information:
 
 - Name: jenkins-slave
-- Docker image: jenkinsci/jnlp-slave:3.26-1 **Note:** If the Slave *jnlp-slave:3.26-1* is not working for you, please replase it with`jenkinsci/jnlp-slave:alpine`
+- Docker image: jenkins/jnlp-slave:3.26-1 **Note:** If the Slave *jnlp-slave:3.26-1* is not working for you, please replase it with`jenkins/jnlp-slave:alpine`
 - *Leave the rest at their default value* 
 
 ![part03-k8sjenkins05](../images/part03-k8sjenkins05.png)/
